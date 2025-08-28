@@ -1,16 +1,16 @@
-package seunomeaqui.modeloprojetofinal.users.controller;
+package eike.modeloprojetofinal.users.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import seunomeaqui.modeloprojetofinal.users.dto.UserCreateDTO;
-import seunomeaqui.modeloprojetofinal.users.dto.UserResponseDTO;
-import seunomeaqui.modeloprojetofinal.users.dto.UserUpdateEmailDTO;
-import seunomeaqui.modeloprojetofinal.users.dto.UserUpdateNameDTO;
-import seunomeaqui.modeloprojetofinal.users.services.UserCreateService;
-import seunomeaqui.modeloprojetofinal.users.services.UserDeleteService;
-import seunomeaqui.modeloprojetofinal.users.services.UserQueryService;
-import seunomeaqui.modeloprojetofinal.users.services.UserUpdateService;
+import eike.modeloprojetofinal.users.dto.UserCreateDTO;
+import eike.modeloprojetofinal.users.dto.UserResponseDTO;
+import eike.modeloprojetofinal.users.dto.UserUpdateEmailDTO;
+import eike.modeloprojetofinal.users.dto.UserUpdateNameDTO;
+import eike.modeloprojetofinal.users.services.UserCreateService;
+import eike.modeloprojetofinal.users.services.UserDeleteService;
+import eike.modeloprojetofinal.users.services.UserQueryService;
+import eike.modeloprojetofinal.users.services.UserUpdateService;
 
 import java.util.List;
 
